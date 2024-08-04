@@ -34,10 +34,10 @@ public:
     QLabel *label_2;
     QLineEdit *lineEdit;
     QLineEdit *lineEdit_2;
-    QPushButton *pushButton;
+    QPushButton *login;
     QLabel *label_3;
     QLabel *label_5;
-    QPushButton *pushButton_2;
+    QPushButton *signup;
     QLabel *label_7;
     QWidget *page_2;
     QFrame *frame_2;
@@ -48,7 +48,7 @@ public:
     QLineEdit *lineEdit_6;
     QLineEdit *lineEdit_7;
     QLineEdit *lineEdit_8;
-    QPushButton *pushButton_3;
+    QPushButton *register_2;
     QLabel *label_8;
     QLabel *label_12;
     QWidget *page_3;
@@ -61,26 +61,26 @@ public:
     QLabel *resultLabel_9;
     QLineEdit *weightEdit_9;
     QLineEdit *heightEdit_9;
-    QPushButton *calculateButton_10;
-    QPushButton *calculateButton_11;
+    QPushButton *nexttobodytypes;
+    QPushButton *backtologin;
     QWidget *page_4;
     QFrame *frame_5;
     QLabel *label_11;
     QLabel *label_13;
     QLabel *label_14;
     QLabel *label_15;
-    QPushButton *pushButton_4;
-    QPushButton *pushButton_5;
-    QPushButton *pushButton_6;
-    QPushButton *pushButton_7;
+    QPushButton *ectomorph;
+    QPushButton *mesomorph;
+    QPushButton *endomorph;
+    QPushButton *backtobmi;
     QLabel *label_10;
     QWidget *page_5;
     QFrame *frame_7;
     QLabel *label_28;
-    QPushButton *pushButton_10;
+    QPushButton *characteristics;
     QLabel *label_29;
-    QPushButton *pushButton_11;
-    QPushButton *pushButton_12;
+    QPushButton *nutritionanddiet;
+    QPushButton *exerciseandworkout;
     QPushButton *pushButton_13;
     QLabel *label_30;
     QWidget *page_6;
@@ -89,7 +89,7 @@ public:
     QLabel *label_17;
     QLabel *label_18;
     QLabel *label_19;
-    QPushButton *pushButton_8;
+    QPushButton *hometoectobody;
     QLabel *label_20;
     QLabel *label_21;
     QTextBrowser *textBrowser;
@@ -112,22 +112,22 @@ public:
     QLabel *label_32;
     QLabel *label_33;
     QTextBrowser *textBrowser_3;
-    QPushButton *pushButton_14;
+    QPushButton *hometoecto_2;
     QWidget *page_8;
     QFrame *frame_9;
     QLabel *label_40;
-    QPushButton *pushButton_15;
+    QPushButton *characteristicsmeso;
     QLabel *label_41;
-    QPushButton *pushButton_16;
+    QPushButton *nutritionmeso;
     QLabel *label_42;
-    QPushButton *pushButton_17;
+    QPushButton *exercisemeso;
     QPushButton *pushButton_19;
     QWidget *page_9;
     QFrame *frame_10;
     QLabel *label_43;
     QLabel *label_44;
     QLabel *label_45;
-    QPushButton *pushButton_9;
+    QPushButton *homemeso;
     QLabel *label_46;
     QLabel *label_47;
     QWidget *page_10;
@@ -137,16 +137,16 @@ public:
     QLabel *label_50;
     QLabel *label_51;
     QLabel *label_52;
-    QPushButton *pushButton_18;
+    QPushButton *homenutro;
     QWidget *page_11;
     QFrame *frame_12;
     QLabel *label_53;
-    QPushButton *pushButton_20;
+    QPushButton *characteristicsendo;
     QLabel *label_54;
     QLabel *label_55;
-    QPushButton *pushButton_21;
-    QPushButton *pushButton_22;
-    QPushButton *pushButton_23;
+    QPushButton *nutritionendo;
+    QPushButton *exerciseendo;
+    QPushButton *backtohomeendo;
     QWidget *page_12;
     QFrame *frame_13;
     QLabel *label_56;
@@ -224,27 +224,27 @@ public:
 "padding-bottom:7px;\n"
 "border-radius:5px;"));
         lineEdit_2->setEchoMode(QLineEdit::Password);
-        pushButton = new QPushButton(frame);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(460, 350, 251, 31));
+        login = new QPushButton(frame);
+        login->setObjectName("login");
+        login->setGeometry(QRect(460, 350, 251, 31));
         QFont font4;
         font4.setFamilies({QString::fromUtf8("Sitka Banner")});
         font4.setPointSize(12);
         font4.setBold(true);
-        pushButton->setFont(font4);
-        pushButton->setStyleSheet(QString::fromUtf8("\n"
+        login->setFont(font4);
+        login->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton{\n"
+"QPushButton#login{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton:hover{\n"
+"QPushButton#login:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#pushButton:pressed{\n"
+"QPushButton#login:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
@@ -265,13 +265,13 @@ public:
 "background-color: #F0EDEE;\n"
 "border-radius:50px;"));
         label_5->setScaledContents(true);
-        pushButton_2 = new QPushButton(frame);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(550, 420, 83, 31));
-        pushButton_2->setFont(font4);
-        pushButton_2->setStyleSheet(QString::fromUtf8("\n"
+        signup = new QPushButton(frame);
+        signup->setObjectName("signup");
+        signup->setGeometry(QRect(550, 420, 83, 31));
+        signup->setFont(font4);
+        signup->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_2{\n"
+"QPushButton#signup{\n"
 "	background-color: #F0EDEE;\n"
 "	color:rgba(85, 98, 112, 255);\n"
 "	border-radius:5px;\n"
@@ -287,9 +287,9 @@ public:
         label_2->raise();
         lineEdit->raise();
         lineEdit_2->raise();
-        pushButton->raise();
+        login->raise();
         label_3->raise();
-        pushButton_2->raise();
+        signup->raise();
         label_7->raise();
         stackedWidget->addWidget(page);
         page_2 = new QWidget();
@@ -366,23 +366,23 @@ public:
 "border-bottom-color: rgb(26, 20, 35);\n"
 "padding-bottom:7px;\n"
 "border-radius:5px;"));
-        pushButton_3 = new QPushButton(frame_2);
-        pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setGeometry(QRect(110, 410, 251, 31));
-        pushButton_3->setFont(font4);
-        pushButton_3->setStyleSheet(QString::fromUtf8("\n"
+        register_2 = new QPushButton(frame_2);
+        register_2->setObjectName("register_2");
+        register_2->setGeometry(QRect(110, 410, 251, 31));
+        register_2->setFont(font4);
+        register_2->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_3{\n"
+"QPushButton#register_2{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_3:hover{\n"
+"QPushButton#register_2:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_3:pressed{\n"
+"QPushButton#register_2:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
@@ -498,45 +498,45 @@ public:
 "padding-bottom:7px;\n"
 "border-radius:5px;\n"
 ""));
-        calculateButton_10 = new QPushButton(frame_4);
-        calculateButton_10->setObjectName("calculateButton_10");
-        calculateButton_10->setGeometry(QRect(550, 420, 31, 31));
-        calculateButton_10->setFont(font4);
-        calculateButton_10->setStyleSheet(QString::fromUtf8("\n"
+        nexttobodytypes = new QPushButton(frame_4);
+        nexttobodytypes->setObjectName("nexttobodytypes");
+        nexttobodytypes->setGeometry(QRect(550, 420, 31, 31));
+        nexttobodytypes->setFont(font4);
+        nexttobodytypes->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#calculateButton_10{\n"
+"QPushButton#nexttobodytypes{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#calculateButton_10:hover{\n"
+"QPushButton#nexttobodytypes:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#calculateButton_10:pressed{\n"
+"QPushButton#nexttobodytypes:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
 "}\n"
 ""));
-        calculateButton_11 = new QPushButton(frame_4);
-        calculateButton_11->setObjectName("calculateButton_11");
-        calculateButton_11->setGeometry(QRect(500, 420, 31, 31));
-        calculateButton_11->setFont(font4);
-        calculateButton_11->setStyleSheet(QString::fromUtf8("\n"
+        backtologin = new QPushButton(frame_4);
+        backtologin->setObjectName("backtologin");
+        backtologin->setGeometry(QRect(500, 420, 31, 31));
+        backtologin->setFont(font4);
+        backtologin->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#calculateButton_11{\n"
+"QPushButton#backtologin{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#calculateButton_11:hover{\n"
+"QPushButton#backtologin:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#calculateButton_11:pressed{\n"
+"QPushButton#backtologin:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
@@ -575,43 +575,43 @@ public:
         label_15->setStyleSheet(QString::fromUtf8("border-image:url(:/images/C:/Users/DELL/Downloads/endomorph.png);\n"
 "border-image: url(:/images/endomorph.png);\n"
 "border-radius:50px;"));
-        pushButton_4 = new QPushButton(frame_5);
-        pushButton_4->setObjectName("pushButton_4");
-        pushButton_4->setGeometry(QRect(70, 440, 161, 31));
-        pushButton_4->setFont(font4);
-        pushButton_4->setFocusPolicy(Qt::ClickFocus);
-        pushButton_4->setStyleSheet(QString::fromUtf8("\n"
+        ectomorph = new QPushButton(frame_5);
+        ectomorph->setObjectName("ectomorph");
+        ectomorph->setGeometry(QRect(70, 440, 161, 31));
+        ectomorph->setFont(font4);
+        ectomorph->setFocusPolicy(Qt::ClickFocus);
+        ectomorph->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_4{\n"
+"QPushButton#ectomorph{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_4:hover{\n"
+"QPushButton#ectomorph:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_4:pressed{\n"
+"QPushButton#ectomorph:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
 "}\n"
 ""));
-        pushButton_5 = new QPushButton(frame_5);
-        pushButton_5->setObjectName("pushButton_5");
-        pushButton_5->setGeometry(QRect(310, 440, 161, 31));
-        pushButton_5->setFont(font4);
-        pushButton_5->setFocusPolicy(Qt::ClickFocus);
-        pushButton_5->setStyleSheet(QString::fromUtf8("\n"
+        mesomorph = new QPushButton(frame_5);
+        mesomorph->setObjectName("mesomorph");
+        mesomorph->setGeometry(QRect(310, 440, 161, 31));
+        mesomorph->setFont(font4);
+        mesomorph->setFocusPolicy(Qt::ClickFocus);
+        mesomorph->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_5{\n"
+"QPushButton#mesomorph{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_5:hover{\n"
+"QPushButton#mesomorph:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
@@ -621,46 +621,46 @@ public:
 "	background-color:rgba(150, 123, 111, 255);\n"
 "}\n"
 ""));
-        pushButton_6 = new QPushButton(frame_5);
-        pushButton_6->setObjectName("pushButton_6");
-        pushButton_6->setGeometry(QRect(550, 440, 161, 31));
-        pushButton_6->setFont(font4);
-        pushButton_6->setFocusPolicy(Qt::ClickFocus);
-        pushButton_6->setStyleSheet(QString::fromUtf8("\n"
+        endomorph = new QPushButton(frame_5);
+        endomorph->setObjectName("endomorph");
+        endomorph->setGeometry(QRect(550, 440, 161, 31));
+        endomorph->setFont(font4);
+        endomorph->setFocusPolicy(Qt::ClickFocus);
+        endomorph->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_6{\n"
+"QPushButton#endomorph{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_6:hover{\n"
+"QPushButton#endomorph:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_6:pressed{\n"
+"QPushButton#endomorph:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
 "}\n"
 ""));
-        pushButton_7 = new QPushButton(frame_5);
-        pushButton_7->setObjectName("pushButton_7");
-        pushButton_7->setGeometry(QRect(30, 20, 31, 31));
-        pushButton_7->setFont(font4);
-        pushButton_7->setStyleSheet(QString::fromUtf8("\n"
+        backtobmi = new QPushButton(frame_5);
+        backtobmi->setObjectName("backtobmi");
+        backtobmi->setGeometry(QRect(30, 20, 31, 31));
+        backtobmi->setFont(font4);
+        backtobmi->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_7{\n"
+"QPushButton#backtobmi{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_7:hover{\n"
+"QPushButton#backtobmi:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_7:pressed{\n"
+"QPushButton#backtobmi:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
@@ -711,20 +711,20 @@ public:
 "    padding: 5px; /* 5px padding inside the border */\n"
 "    border-style: solid;\n"
 "}"));
-        pushButton_10 = new QPushButton(frame_7);
-        pushButton_10->setObjectName("pushButton_10");
-        pushButton_10->setGeometry(QRect(40, 370, 221, 81));
+        characteristics = new QPushButton(frame_7);
+        characteristics->setObjectName("characteristics");
+        characteristics->setGeometry(QRect(40, 370, 221, 81));
         QFont font9;
         font9.setPointSize(8);
         font9.setBold(true);
-        pushButton_10->setFont(font9);
-        pushButton_10->setStyleSheet(QString::fromUtf8("\n"
+        characteristics->setFont(font9);
+        characteristics->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_10{\n"
+"QPushButton#characteristics{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_10:hover{\n"
+"QPushButton#characteristics:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
@@ -752,33 +752,33 @@ public:
 "    border-style: solid;\n"
 "}"));
         label_29->setScaledContents(false);
-        pushButton_11 = new QPushButton(frame_7);
-        pushButton_11->setObjectName("pushButton_11");
-        pushButton_11->setGeometry(QRect(300, 370, 221, 81));
-        pushButton_11->setFont(font9);
-        pushButton_11->setStyleSheet(QString::fromUtf8("\n"
+        nutritionanddiet = new QPushButton(frame_7);
+        nutritionanddiet->setObjectName("nutritionanddiet");
+        nutritionanddiet->setGeometry(QRect(300, 370, 221, 81));
+        nutritionanddiet->setFont(font9);
+        nutritionanddiet->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_11{\n"
+"QPushButton#nutritionanddiet{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_11:hover{\n"
+"QPushButton#nutritionanddiet:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
 "\n"
 ""));
-        pushButton_12 = new QPushButton(frame_7);
-        pushButton_12->setObjectName("pushButton_12");
-        pushButton_12->setGeometry(QRect(550, 370, 221, 81));
-        pushButton_12->setFont(font9);
-        pushButton_12->setStyleSheet(QString::fromUtf8("\n"
+        exerciseandworkout = new QPushButton(frame_7);
+        exerciseandworkout->setObjectName("exerciseandworkout");
+        exerciseandworkout->setGeometry(QRect(550, 370, 221, 81));
+        exerciseandworkout->setFont(font9);
+        exerciseandworkout->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_12{\n"
+"QPushButton#exerciseandworkout{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_12:hover{\n"
+"QPushButton#exerciseandworkout:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
@@ -829,10 +829,10 @@ public:
         label_30->setScaledContents(false);
         label_30->raise();
         label_28->raise();
-        pushButton_10->raise();
+        characteristics->raise();
         label_29->raise();
-        pushButton_11->raise();
-        pushButton_12->raise();
+        nutritionanddiet->raise();
+        exerciseandworkout->raise();
         pushButton_13->raise();
         stackedWidget->addWidget(page_5);
         page_6 = new QWidget();
@@ -878,11 +878,11 @@ public:
         label_19->setFont(font11);
         label_19->setStyleSheet(QString::fromUtf8("color:rgb(158, 158, 158)\n"
 ""));
-        pushButton_8 = new QPushButton(frame_6);
-        pushButton_8->setObjectName("pushButton_8");
-        pushButton_8->setGeometry(QRect(40, 20, 61, 31));
-        pushButton_8->setFont(font4);
-        pushButton_8->setStyleSheet(QString::fromUtf8("\n"
+        hometoectobody = new QPushButton(frame_6);
+        hometoectobody->setObjectName("hometoectobody");
+        hometoectobody->setGeometry(QRect(40, 20, 61, 31));
+        hometoectobody->setFont(font4);
+        hometoectobody->setStyleSheet(QString::fromUtf8("\n"
 "\n"
 "QPushButton#pushButton_8{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
@@ -1076,11 +1076,11 @@ public:
         textBrowser_3->setStyleSheet(QString::fromUtf8("color: #1A1423;\n"
 "background-color: #F0EDEE;\n"
 "border-radius:50px;"));
-        pushButton_14 = new QPushButton(frame_8);
-        pushButton_14->setObjectName("pushButton_14");
-        pushButton_14->setGeometry(QRect(60, 30, 31, 31));
-        pushButton_14->setFont(font4);
-        pushButton_14->setStyleSheet(QString::fromUtf8("\n"
+        hometoecto_2 = new QPushButton(frame_8);
+        hometoecto_2->setObjectName("hometoecto_2");
+        hometoecto_2->setGeometry(QRect(60, 30, 31, 31));
+        hometoecto_2->setFont(font4);
+        hometoecto_2->setStyleSheet(QString::fromUtf8("\n"
 "\n"
 "QPushButton#pushButton_14{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
@@ -1115,7 +1115,7 @@ public:
         label_32->raise();
         label_33->raise();
         textBrowser_3->raise();
-        pushButton_14->raise();
+        hometoecto_2->raise();
         stackedWidget->addWidget(page_7);
         page_8 = new QWidget();
         page_8->setObjectName("page_8");
@@ -1145,17 +1145,17 @@ public:
 "    padding: 5px; /* 5px padding inside the border */\n"
 "    border-style: solid;\n"
 "}"));
-        pushButton_15 = new QPushButton(frame_9);
-        pushButton_15->setObjectName("pushButton_15");
-        pushButton_15->setGeometry(QRect(50, 390, 221, 81));
-        pushButton_15->setFont(font9);
-        pushButton_15->setStyleSheet(QString::fromUtf8("\n"
+        characteristicsmeso = new QPushButton(frame_9);
+        characteristicsmeso->setObjectName("characteristicsmeso");
+        characteristicsmeso->setGeometry(QRect(50, 390, 221, 81));
+        characteristicsmeso->setFont(font9);
+        characteristicsmeso->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_15{\n"
+"QPushButton#characteristicsmeso{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_15:hover{\n"
+"QPushButton#characteristicsmeso:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
@@ -1181,17 +1181,17 @@ public:
 "    padding: 5px; /* 5px padding inside the border */\n"
 "    border-style: solid;\n"
 "}"));
-        pushButton_16 = new QPushButton(frame_9);
-        pushButton_16->setObjectName("pushButton_16");
-        pushButton_16->setGeometry(QRect(310, 390, 221, 81));
-        pushButton_16->setFont(font9);
-        pushButton_16->setStyleSheet(QString::fromUtf8("\n"
+        nutritionmeso = new QPushButton(frame_9);
+        nutritionmeso->setObjectName("nutritionmeso");
+        nutritionmeso->setGeometry(QRect(310, 390, 221, 81));
+        nutritionmeso->setFont(font9);
+        nutritionmeso->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_16{\n"
+"QPushButton#nutritionmeso{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_16:hover{\n"
+"QPushButton#nutritionmeso:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
@@ -1218,17 +1218,17 @@ public:
 "    padding: 5px; /* 5px padding inside the border */\n"
 "    border-style: solid;\n"
 "}"));
-        pushButton_17 = new QPushButton(frame_9);
-        pushButton_17->setObjectName("pushButton_17");
-        pushButton_17->setGeometry(QRect(570, 390, 221, 81));
-        pushButton_17->setFont(font9);
-        pushButton_17->setStyleSheet(QString::fromUtf8("\n"
+        exercisemeso = new QPushButton(frame_9);
+        exercisemeso->setObjectName("exercisemeso");
+        exercisemeso->setGeometry(QRect(570, 390, 221, 81));
+        exercisemeso->setFont(font9);
+        exercisemeso->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_17{\n"
+"QPushButton#exercisemeso{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_17:hover{\n"
+"QPushButton#exercisemeso:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
@@ -1287,11 +1287,11 @@ public:
 "background-color: #F0EDEE;\n"
 ""));
         label_45->setAlignment(Qt::AlignCenter);
-        pushButton_9 = new QPushButton(frame_10);
-        pushButton_9->setObjectName("pushButton_9");
-        pushButton_9->setGeometry(QRect(40, 10, 61, 31));
-        pushButton_9->setFont(font4);
-        pushButton_9->setStyleSheet(QString::fromUtf8("\n"
+        homemeso = new QPushButton(frame_10);
+        homemeso->setObjectName("homemeso");
+        homemeso->setGeometry(QRect(40, 10, 61, 31));
+        homemeso->setFont(font4);
+        homemeso->setStyleSheet(QString::fromUtf8("\n"
 "\n"
 "QPushButton#pushButton_9{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
@@ -1374,23 +1374,23 @@ public:
 "color: #1A1423;\n"
 ""));
         label_52->setAlignment(Qt::AlignCenter);
-        pushButton_18 = new QPushButton(frame_11);
-        pushButton_18->setObjectName("pushButton_18");
-        pushButton_18->setGeometry(QRect(30, 20, 31, 31));
-        pushButton_18->setFont(font4);
-        pushButton_18->setStyleSheet(QString::fromUtf8("\n"
+        homenutro = new QPushButton(frame_11);
+        homenutro->setObjectName("homenutro");
+        homenutro->setGeometry(QRect(30, 20, 31, 31));
+        homenutro->setFont(font4);
+        homenutro->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_18{\n"
+"QPushButton#homenutro{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_18:hover{\n"
+"QPushButton#homenutro:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_18:pressed{\n"
+"QPushButton#homenutro:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
@@ -1425,17 +1425,17 @@ public:
 "    padding: 5px; /* 5px padding inside the border */\n"
 "    border-style: solid;\n"
 "}"));
-        pushButton_20 = new QPushButton(frame_12);
-        pushButton_20->setObjectName("pushButton_20");
-        pushButton_20->setGeometry(QRect(30, 380, 231, 81));
-        pushButton_20->setFont(font9);
-        pushButton_20->setStyleSheet(QString::fromUtf8("\n"
+        characteristicsendo = new QPushButton(frame_12);
+        characteristicsendo->setObjectName("characteristicsendo");
+        characteristicsendo->setGeometry(QRect(30, 380, 231, 81));
+        characteristicsendo->setFont(font9);
+        characteristicsendo->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_20{\n"
+"QPushButton#characteristicsendo{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_20:hover{\n"
+"QPushButton#characteristicsendo:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
@@ -1482,55 +1482,55 @@ public:
 "    padding: 5px; /* 5px padding inside the border */\n"
 "    border-style: solid;\n"
 "}"));
-        pushButton_21 = new QPushButton(frame_12);
-        pushButton_21->setObjectName("pushButton_21");
-        pushButton_21->setGeometry(QRect(310, 380, 221, 81));
-        pushButton_21->setFont(font9);
-        pushButton_21->setStyleSheet(QString::fromUtf8("\n"
+        nutritionendo = new QPushButton(frame_12);
+        nutritionendo->setObjectName("nutritionendo");
+        nutritionendo->setGeometry(QRect(310, 380, 221, 81));
+        nutritionendo->setFont(font9);
+        nutritionendo->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_21{\n"
+"QPushButton#nutritionendo{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_21:hover{\n"
+"QPushButton#nutritionendo:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
 "\n"
 ""));
-        pushButton_22 = new QPushButton(frame_12);
-        pushButton_22->setObjectName("pushButton_22");
-        pushButton_22->setGeometry(QRect(560, 380, 221, 81));
-        pushButton_22->setFont(font9);
-        pushButton_22->setStyleSheet(QString::fromUtf8("\n"
+        exerciseendo = new QPushButton(frame_12);
+        exerciseendo->setObjectName("exerciseendo");
+        exerciseendo->setGeometry(QRect(560, 380, 221, 81));
+        exerciseendo->setFont(font9);
+        exerciseendo->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_22{\n"
+"QPushButton#exerciseendo{\n"
 "color:grey;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_22:hover{\n"
+"QPushButton#exerciseendo:hover{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;}\n"
 "\n"
 "\n"
 ""));
-        pushButton_23 = new QPushButton(frame_12);
-        pushButton_23->setObjectName("pushButton_23");
-        pushButton_23->setGeometry(QRect(40, 20, 31, 31));
-        pushButton_23->setFont(font4);
-        pushButton_23->setStyleSheet(QString::fromUtf8("\n"
+        backtohomeendo = new QPushButton(frame_12);
+        backtohomeendo->setObjectName("backtohomeendo");
+        backtohomeendo->setGeometry(QRect(40, 20, 31, 31));
+        backtohomeendo->setFont(font4);
+        backtohomeendo->setStyleSheet(QString::fromUtf8("\n"
 "\n"
-"QPushButton#pushButton_23{\n"
+"QPushButton#backtohomeendo{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));\n"
 "	color:rgba(255, 255, 255, 210);\n"
 "	border-radius:5px;\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_23:hover{\n"
+"QPushButton#backtohomeendo:hover{\n"
 "	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));\n"
 "}\n"
 "\n"
-"QPushButton#pushButton_23:pressed{\n"
+"QPushButton#backtohomeendo:pressed{\n"
 "	padding-left:5px;\n"
 "	padding-top:5px;\n"
 "	background-color:rgba(150, 123, 111, 255);\n"
@@ -1633,10 +1633,10 @@ public:
         lineEdit->setPlaceholderText(QCoreApplication::translate("MainWindow", "Username", nullptr));
         lineEdit_2->setText(QString());
         lineEdit_2->setPlaceholderText(QCoreApplication::translate("MainWindow", "Password", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Log in", nullptr));
+        login->setText(QCoreApplication::translate("MainWindow", "Log in", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Don't have and account?", nullptr));
         label_5->setText(QString());
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Sign Up", nullptr));
+        signup->setText(QCoreApplication::translate("MainWindow", "Sign Up", nullptr));
         label_7->setText(QString());
         label_6->setText(QString());
         label_4->setText(QCoreApplication::translate("MainWindow", "REGISTER", nullptr));
@@ -1650,7 +1650,7 @@ public:
         lineEdit_7->setPlaceholderText(QCoreApplication::translate("MainWindow", "First name", nullptr));
         lineEdit_8->setText(QString());
         lineEdit_8->setPlaceholderText(QCoreApplication::translate("MainWindow", "Email address", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("MainWindow", "R e g i s t er", nullptr));
+        register_2->setText(QCoreApplication::translate("MainWindow", "R e g i s t er", nullptr));
         label_8->setText(QString());
         label_12->setText(QCoreApplication::translate("MainWindow", "Please enter correct information", nullptr));
         label_9->setText(QCoreApplication::translate("MainWindow", "BMI CALCULATOR", nullptr));
@@ -1662,29 +1662,29 @@ public:
         weightEdit_9->setPlaceholderText(QString());
         heightEdit_9->setText(QString());
         heightEdit_9->setPlaceholderText(QString());
-        calculateButton_10->setText(QCoreApplication::translate("MainWindow", ">", nullptr));
-        calculateButton_11->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
+        nexttobodytypes->setText(QCoreApplication::translate("MainWindow", ">", nullptr));
+        backtologin->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
         label_11->setText(QCoreApplication::translate("MainWindow", "Please choose your appropriate body type.", nullptr));
         label_13->setText(QString());
         label_14->setText(QString());
         label_15->setText(QString());
-        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Ectomorph", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("MainWindow", "Mesomorph", nullptr));
-        pushButton_6->setText(QCoreApplication::translate("MainWindow", "Endomorph", nullptr));
-        pushButton_7->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
+        ectomorph->setText(QCoreApplication::translate("MainWindow", "Ectomorph", nullptr));
+        mesomorph->setText(QCoreApplication::translate("MainWindow", "Mesomorph", nullptr));
+        endomorph->setText(QCoreApplication::translate("MainWindow", "Endomorph", nullptr));
+        backtobmi->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
         label_10->setText(QCoreApplication::translate("MainWindow", "THE BODY TYPES", nullptr));
         label_28->setText(QString());
-        pushButton_10->setText(QCoreApplication::translate("MainWindow", "CHARACTERISTICS", nullptr));
+        characteristics->setText(QCoreApplication::translate("MainWindow", "CHARACTERISTICS", nullptr));
         label_29->setText(QString());
-        pushButton_11->setText(QCoreApplication::translate("MainWindow", " NUTRITION AND DIET", nullptr));
-        pushButton_12->setText(QCoreApplication::translate("MainWindow", "EXERCISE AND WORKOUT PLAN", nullptr));
+        nutritionanddiet->setText(QCoreApplication::translate("MainWindow", " NUTRITION AND DIET", nullptr));
+        exerciseandworkout->setText(QCoreApplication::translate("MainWindow", "EXERCISE AND WORKOUT PLAN", nullptr));
         pushButton_13->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
         label_30->setText(QString());
         label_16->setText(QString());
         label_17->setText(QCoreApplication::translate("MainWindow", "ENDOMORPH BODY TYPE", nullptr));
         label_18->setText(QString());
         label_19->setText(QCoreApplication::translate("MainWindow", "A guide to the endomorph body type and how to personalize your workout, and diet plans.", nullptr));
-        pushButton_8->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
+        hometoectobody->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_20->setText(QCoreApplication::translate("MainWindow", "BODY TYPE", nullptr));
         label_21->setText(QCoreApplication::translate("MainWindow", "CHARACTERISTICS", nullptr));
         textBrowser->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -1761,18 +1761,18 @@ public:
 "<p align=\"justify\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-"
                         "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-&gt; Aim for a diet with an energy surplus to support weight gain.</p></body></html>", nullptr));
-        pushButton_14->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
+        hometoecto_2->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
         label_40->setText(QString());
-        pushButton_15->setText(QCoreApplication::translate("MainWindow", "CHARACTERISTICS", nullptr));
+        characteristicsmeso->setText(QCoreApplication::translate("MainWindow", "CHARACTERISTICS", nullptr));
         label_41->setText(QString());
-        pushButton_16->setText(QCoreApplication::translate("MainWindow", "NUTRITION AND DIET", nullptr));
+        nutritionmeso->setText(QCoreApplication::translate("MainWindow", "NUTRITION AND DIET", nullptr));
         label_42->setText(QString());
-        pushButton_17->setText(QCoreApplication::translate("MainWindow", "EXERCISE AND WORKOUT PLAN", nullptr));
+        exercisemeso->setText(QCoreApplication::translate("MainWindow", "EXERCISE AND WORKOUT PLAN", nullptr));
         pushButton_19->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
         label_43->setText(QString());
         label_44->setText(QString());
         label_45->setText(QCoreApplication::translate("MainWindow", "MESOMORPH BODY TYPE", nullptr));
-        pushButton_9->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
+        homemeso->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_46->setText(QCoreApplication::translate("MainWindow", "BODY TYPE", nullptr));
         label_47->setText(QCoreApplication::translate("MainWindow", "A guide to the mesomorph body type and how to personalize your workout, and diet plans.", nullptr));
         label_48->setText(QCoreApplication::translate("MainWindow", "NUTRITION AND DIET", nullptr));
@@ -1780,14 +1780,14 @@ public:
         label_50->setText(QString());
         label_51->setText(QString());
         label_52->setText(QCoreApplication::translate("MainWindow", "RECOMMENDED DIET", nullptr));
-        pushButton_18->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
+        homenutro->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
         label_53->setText(QString());
-        pushButton_20->setText(QCoreApplication::translate("MainWindow", "CHARACTERISTICS", nullptr));
+        characteristicsendo->setText(QCoreApplication::translate("MainWindow", "CHARACTERISTICS", nullptr));
         label_54->setText(QString());
         label_55->setText(QString());
-        pushButton_21->setText(QCoreApplication::translate("MainWindow", "NUTRITION AND DIET", nullptr));
-        pushButton_22->setText(QCoreApplication::translate("MainWindow", "EXERCISE AND  WORKOUT PLAN", nullptr));
-        pushButton_23->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
+        nutritionendo->setText(QCoreApplication::translate("MainWindow", "NUTRITION AND DIET", nullptr));
+        exerciseendo->setText(QCoreApplication::translate("MainWindow", "EXERCISE AND  WORKOUT PLAN", nullptr));
+        backtohomeendo->setText(QCoreApplication::translate("MainWindow", "<", nullptr));
         label_56->setText(QString());
         label_57->setText(QString());
         label_58->setText(QCoreApplication::translate("MainWindow", "ENDOMORPH BODY TYPE", nullptr));

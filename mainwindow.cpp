@@ -16,135 +16,6 @@ MainWindow::~MainWindow()
 
 }
 
-void MainWindow::on_pushButton_2_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(1);
-
-}
-
-
-void MainWindow::on_pushButton_3_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(0);
-
-}
-
-
-void MainWindow::on_pushButton_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(2);
-}
-
-
-void MainWindow::on_calculateButton_10_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(3);
-}
-
-void MainWindow::on_calculateButton_11_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(0);
-}
-
-void MainWindow::on_pushButton_7_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(2);
-}
-
-
-void MainWindow::on_pushButton_4_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(4);
-}
-
-
-void MainWindow::on_pushButton_8_clicked()
-{
-      ui->stackedWidget->setCurrentIndex(4);
-}
-
-
-void MainWindow::on_pushButton_13_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(3);
-}
-
-void MainWindow::on_pushButton_10_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(5);
-}
-
-
-void MainWindow::on_pushButton_11_clicked()
-{
-      ui->stackedWidget->setCurrentIndex(6);
-
-}
-
-void MainWindow::on_pushButton_14_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(4);
-}
-
-void MainWindow::on_pushButton_5_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(7);
-}
-
-void MainWindow::on_pushButton_19_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(3);
-}
-
-void MainWindow::on_pushButton_15_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(8);
-}
-
-
-void MainWindow::on_pushButton_9_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(7);
-}
-
-
-void MainWindow::on_pushButton_16_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(9);
-}
-
-
-
-void MainWindow::on_pushButton_18_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(7);
-}
-
-
-
-void MainWindow::on_pushButton_6_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(10);
-}
-
-
-
-void MainWindow::on_pushButton_23_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(3);
-}
-
-
-void MainWindow::on_pushButton_20_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(11);
-}
-
-
-void MainWindow::on_pushButton_24_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(10);
-}
 
 
 
@@ -220,5 +91,159 @@ if (weightOk && heightOk && height > 0) {
 
 
 
+
+
+
+void MainWindow::on_signup_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+
+}
+
+
+
+void MainWindow::on_register_2_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+
+}
+
+
+
+void MainWindow::on_login_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}
+
+
+
+void MainWindow::on_backtologin_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+}
+
+
+
+void MainWindow::on_nexttobodytypes_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+
+void MainWindow::on_ectomorph_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(4);
+}
+
+
+
+void MainWindow::on_backtobmi_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(2);
+}
+
+
+
+
+void MainWindow::on_characteristics_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(5);
+}
+
+
+void MainWindow::on_nutritionanddiet_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(6);
+}
+
+
+
+void MainWindow::on_hometoectobody_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(4);
+}
+
+
+void MainWindow::on_hometoecto_2_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(4);
+}
+
+
+void MainWindow::on_pushButton_19_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_mesomorph_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(7);
+}
+
+
+void MainWindow::on_characteristicsmeso_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(8);
+}
+
+
+
+
+void MainWindow::on_nutritionmeso_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(9);
+}
+
+
+void MainWindow::on_homenutro_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(7);
+}
+
+
+void MainWindow::on_homemeso_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(7);
+}
+
+
+void MainWindow::on_characteristicsendo_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(11);
+}
+
+
+
+void MainWindow::on_backtohomeendo_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_nutritionendo_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(12);
+}
+
+
+void MainWindow::on_pushButton_13_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_endomorph_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(10);
+}
+
+
+
+void MainWindow::on_pushButton_24_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(10);
+}
 
 

@@ -163,7 +163,7 @@ border-radius:5px;</string>
         <string>Password</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="login">
        <property name="geometry">
         <rect>
          <x>460</x>
@@ -182,17 +182,17 @@ border-radius:5px;</string>
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton{
+QPushButton#login{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton:hover{
+QPushButton#login:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#pushButton:pressed{
+QPushButton#login:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -246,7 +246,7 @@ border-radius:50px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="signup">
        <property name="geometry">
         <rect>
          <x>550</x>
@@ -265,7 +265,7 @@ border-radius:50px;</string>
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_2{
+QPushButton#signup{
 	background-color: #F0EDEE;
 	color:rgba(85, 98, 112, 255);
 	border-radius:5px;
@@ -298,9 +298,9 @@ border-radius:50px;</string>
       <zorder>label_2</zorder>
       <zorder>lineEdit</zorder>
       <zorder>lineEdit_2</zorder>
-      <zorder>pushButton</zorder>
+      <zorder>login</zorder>
       <zorder>label_3</zorder>
-      <zorder>pushButton_2</zorder>
+      <zorder>signup</zorder>
       <zorder>label_7</zorder>
      </widget>
     </widget>
@@ -518,7 +518,7 @@ border-radius:5px;</string>
         <string>Email address</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="register_2">
        <property name="geometry">
         <rect>
          <x>110</x>
@@ -537,17 +537,17 @@ border-radius:5px;</string>
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_3{
+QPushButton#register_2{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton_3:hover{
+QPushButton#register_2:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#pushButton_3:pressed{
+QPushButton#register_2:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -841,7 +841,7 @@ border-radius:5px;
          <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="calculateButton_10">
+       <widget class="QPushButton" name="nexttobodytypes">
         <property name="geometry">
          <rect>
           <x>550</x>
@@ -860,17 +860,17 @@ border-radius:5px;
         <property name="styleSheet">
          <string notr="true">
 
-QPushButton#calculateButton_10{
+QPushButton#nexttobodytypes{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#calculateButton_10:hover{
+QPushButton#nexttobodytypes:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#calculateButton_10:pressed{
+QPushButton#nexttobodytypes:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -881,7 +881,7 @@ QPushButton#calculateButton_10:pressed{
          <string>&gt;</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="calculateButton_11">
+       <widget class="QPushButton" name="backtologin">
         <property name="geometry">
          <rect>
           <x>500</x>
@@ -900,17 +900,17 @@ QPushButton#calculateButton_10:pressed{
         <property name="styleSheet">
          <string notr="true">
 
-QPushButton#calculateButton_11{
+QPushButton#backtologin{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#calculateButton_11:hover{
+QPushButton#backtologin:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#calculateButton_11:pressed{
+QPushButton#backtologin:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -1022,7 +1022,7 @@ border-radius:50px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="ectomorph">
        <property name="geometry">
         <rect>
          <x>70</x>
@@ -1044,17 +1044,17 @@ border-radius:50px;</string>
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_4{
+QPushButton#ectomorph{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton_4:hover{
+QPushButton#ectomorph:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#pushButton_4:pressed{
+QPushButton#ectomorph:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -1065,7 +1065,7 @@ QPushButton#pushButton_4:pressed{
         <string>Ectomorph</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_5">
+      <widget class="QPushButton" name="mesomorph">
        <property name="geometry">
         <rect>
          <x>310</x>
@@ -1087,13 +1087,13 @@ QPushButton#pushButton_4:pressed{
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_5{
+QPushButton#mesomorph{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton_5:hover{
+QPushButton#mesomorph:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
@@ -1108,7 +1108,7 @@ QPushButton#pushButton_5:pressed{
         <string>Mesomorph</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_6">
+      <widget class="QPushButton" name="endomorph">
        <property name="geometry">
         <rect>
          <x>550</x>
@@ -1130,17 +1130,17 @@ QPushButton#pushButton_5:pressed{
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_6{
+QPushButton#endomorph{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton_6:hover{
+QPushButton#endomorph:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#pushButton_6:pressed{
+QPushButton#endomorph:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -1151,7 +1151,7 @@ QPushButton#pushButton_6:pressed{
         <string>Endomorph</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_7">
+      <widget class="QPushButton" name="backtobmi">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -1170,17 +1170,17 @@ QPushButton#pushButton_6:pressed{
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_7{
+QPushButton#backtobmi{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton_7:hover{
+QPushButton#backtobmi:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#pushButton_7:pressed{
+QPushButton#backtobmi:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -1276,7 +1276,7 @@ QLabel_28:hover {
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_10">
+      <widget class="QPushButton" name="characteristics">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -1294,11 +1294,11 @@ QLabel_28:hover {
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_10{
+QPushButton#characteristics{
 color:grey;
 }
 
-QPushButton#pushButton_10:hover{
+QPushButton#characteristics:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -1345,7 +1345,7 @@ QLabel_28:hover {
         <bool>false</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_11">
+      <widget class="QPushButton" name="nutritionanddiet">
        <property name="geometry">
         <rect>
          <x>300</x>
@@ -1363,11 +1363,11 @@ QLabel_28:hover {
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_11{
+QPushButton#nutritionanddiet{
 color:grey;
 }
 
-QPushButton#pushButton_11:hover{
+QPushButton#nutritionanddiet:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -1378,7 +1378,7 @@ QPushButton#pushButton_11:hover{
         <string> NUTRITION AND DIET</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_12">
+      <widget class="QPushButton" name="exerciseandworkout">
        <property name="geometry">
         <rect>
          <x>550</x>
@@ -1396,11 +1396,11 @@ QPushButton#pushButton_11:hover{
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_12{
+QPushButton#exerciseandworkout{
 color:grey;
 }
 
-QPushButton#pushButton_12:hover{
+QPushButton#exerciseandworkout:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -1488,10 +1488,10 @@ QLabel_28:hover {
       </widget>
       <zorder>label_30</zorder>
       <zorder>label_28</zorder>
-      <zorder>pushButton_10</zorder>
+      <zorder>characteristics</zorder>
       <zorder>label_29</zorder>
-      <zorder>pushButton_11</zorder>
-      <zorder>pushButton_12</zorder>
+      <zorder>nutritionanddiet</zorder>
+      <zorder>exerciseandworkout</zorder>
       <zorder>pushButton_13</zorder>
      </widget>
     </widget>
@@ -1603,7 +1603,7 @@ border-radius:50px;</string>
         <string>A guide to the endomorph body type and how to personalize your workout, and diet plans.</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_8">
+      <widget class="QPushButton" name="hometoectobody">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -2185,7 +2185,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-&amp;gt; Aim for a diet with an energy surplus to support weight gain.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_14">
+      <widget class="QPushButton" name="hometoecto_2">
        <property name="geometry">
         <rect>
          <x>60</x>
@@ -2242,7 +2242,7 @@ QPushButton#pushButton_14:pressed{
       <zorder>label_32</zorder>
       <zorder>label_33</zorder>
       <zorder>textBrowser_3</zorder>
-      <zorder>pushButton_14</zorder>
+      <zorder>hometoecto_2</zorder>
      </widget>
     </widget>
     <widget class="QWidget" name="page_8">
@@ -2296,7 +2296,7 @@ QLabel_28:hover {
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_15">
+      <widget class="QPushButton" name="characteristicsmeso">
        <property name="geometry">
         <rect>
          <x>50</x>
@@ -2314,11 +2314,11 @@ QLabel_28:hover {
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_15{
+QPushButton#characteristicsmeso{
 color:grey;
 }
 
-QPushButton#pushButton_15:hover{
+QPushButton#characteristicsmeso:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -2361,7 +2361,7 @@ QLabel_28:hover {
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_16">
+      <widget class="QPushButton" name="nutritionmeso">
        <property name="geometry">
         <rect>
          <x>310</x>
@@ -2379,11 +2379,11 @@ QLabel_28:hover {
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_16{
+QPushButton#nutritionmeso{
 color:grey;
 }
 
-QPushButton#pushButton_16:hover{
+QPushButton#nutritionmeso:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -2427,7 +2427,7 @@ QLabel_28:hover {
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_17">
+      <widget class="QPushButton" name="exercisemeso">
        <property name="geometry">
         <rect>
          <x>570</x>
@@ -2445,11 +2445,11 @@ QLabel_28:hover {
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_17{
+QPushButton#exercisemeso{
 color:grey;
 }
 
-QPushButton#pushButton_17:hover{
+QPushButton#exercisemeso:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -2587,7 +2587,7 @@ background-color: #F0EDEE;
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_9">
+      <widget class="QPushButton" name="homemeso">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -2817,7 +2817,7 @@ color: #1A1423;
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_18">
+      <widget class="QPushButton" name="homenutro">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -2836,17 +2836,17 @@ color: #1A1423;
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_18{
+QPushButton#homenutro{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton_18:hover{
+QPushButton#homenutro:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#pushButton_18:pressed{
+QPushButton#homenutro:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
@@ -2910,7 +2910,7 @@ QLabel_28:hover {
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_20">
+      <widget class="QPushButton" name="characteristicsendo">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -2928,11 +2928,11 @@ QLabel_28:hover {
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_20{
+QPushButton#characteristicsendo{
 color:grey;
 }
 
-QPushButton#pushButton_20:hover{
+QPushButton#characteristicsendo:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -3008,7 +3008,7 @@ QLabel_28:hover {
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_21">
+      <widget class="QPushButton" name="nutritionendo">
        <property name="geometry">
         <rect>
          <x>310</x>
@@ -3026,11 +3026,11 @@ QLabel_28:hover {
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_21{
+QPushButton#nutritionendo{
 color:grey;
 }
 
-QPushButton#pushButton_21:hover{
+QPushButton#nutritionendo:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -3041,7 +3041,7 @@ QPushButton#pushButton_21:hover{
         <string>NUTRITION AND DIET</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_22">
+      <widget class="QPushButton" name="exerciseendo">
        <property name="geometry">
         <rect>
          <x>560</x>
@@ -3059,11 +3059,11 @@ QPushButton#pushButton_21:hover{
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_22{
+QPushButton#exerciseendo{
 color:grey;
 }
 
-QPushButton#pushButton_22:hover{
+QPushButton#exerciseendo:hover{
 	padding-left:5px;
 	padding-top:5px;}
 
@@ -3074,7 +3074,7 @@ QPushButton#pushButton_22:hover{
         <string>EXERCISE AND  WORKOUT PLAN</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_23">
+      <widget class="QPushButton" name="backtohomeendo">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -3093,17 +3093,17 @@ QPushButton#pushButton_22:hover{
        <property name="styleSheet">
         <string notr="true">
 
-QPushButton#pushButton_23{
+QPushButton#backtohomeendo{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
 	color:rgba(255, 255, 255, 210);
 	border-radius:5px;
 }
 
-QPushButton#pushButton_23:hover{
+QPushButton#backtohomeendo:hover{
 	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
 }
 
-QPushButton#pushButton_23:pressed{
+QPushButton#backtohomeendo:pressed{
 	padding-left:5px;
 	padding-top:5px;
 	background-color:rgba(150, 123, 111, 255);
