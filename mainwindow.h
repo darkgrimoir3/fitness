@@ -33,7 +33,7 @@ private slots:
 
 private slots:
 
-    void on_pushButton_clicked();
+  /*  void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
 
@@ -77,7 +77,7 @@ private slots:
 
     void on_pushButton_20_clicked();
 
-    void on_pushButton_24_clicked();
+    void on_pushButton_24_clicked(); */
 
 private:
     Ui::MainWindow *ui;
